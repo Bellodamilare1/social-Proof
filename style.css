@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 100px;
+  overflow: hidden;
+}
+
+.right {
+  position: relative;
+  top: -220px;
+  right: -650px;
+  overflow-x: hidden;
+}
+
+.ratings1,
+.ratings2,
+.ratings3 {
+  display: flex;
+  padding-top: 10px;
+  background: #ebe6eb;
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.ratings2 {
+  margin-left: 35px;
+}
+
+.ratings3 {
+  margin-left: 70px;
+}
+
+.ratings1 .fa-star,
+.ratings2 .fa-star,
+.ratings3 .fa-star {
+  padding: 3px;
+  font-size: 12px;
+  color: #ffa500;
+}
+
+.ratings1 .text,
+.ratings2 .text,
+.ratings3 .text {
+  margin-left: 20px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 160px;
+  color: #610661;
+}
+
+h2 {
+  font-size: 14px;
+  margin-left: 160px;
+  padding-top: 5px;
+  color: #b3a5b3;
+  letter-spacing: 1px;
+  font-family: "Gideon Roman", cursive;
+}
+
+.group__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+}
+.card1,
+.card2,
+.card3 {
+  height: 200px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  background-color: #610661;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+
+.card2 {
+  margin-top: 20px;
+}
+
+.card3 {
+  margin-top: 50px;
+}
+
+.image {
+  border: none;
+  border-radius: 50%;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.attr {
+  display: flex;
+  flex-direction: column;
+}
+
+.attr .name {
+  margin-top: -50px;
+  color: #ffffff;
+  margin-left: 90px;
+  font-size: 15px;
+}
+
+.attr .title {
+  margin-left: 90px;
+  color: #e669e6;
+  font-size: 12px;
+}
+
+.description {
+  margin: 35px auto 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: gainsboro;
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+/* media queries */
+@media only screen and (max-width: 767px) {
+  h1 {
+    margin: 20px auto 20px;
+    line-height: -2px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 0.7rem;
+    line-height: -2px;
+    text-align: center;
+    margin: -20px auto -5px;
+  }
+  .right {
+    position: relative;
+    left: -25px;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ratings1,
+  .ratings2,
+  .ratings3 {
+    display: block;
+    width: 280px;
+    height: 70px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-top: -10px;
+    border: none;
+    border-radius: 7px;
+  }
+  .ratings1 .fa-star {
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-left: 1rem;
+  }
+  .ratings2 .fa-star {
+    align-items: center;
+    margin-left: auto;
+    margin-left: 1rem;
+  }
+  .ratings3 .fa-star {
+    align-items: center;
+    margin-left: auto;
+    margin-left: 1rem;
+  }
+
+  .ratings1 .text {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 12px;
+    padding-right: 40px;
+  }
+  .ratings2 .text {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  .ratings2 .text {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  .group__card {
+    display: block;
+   margin-top: 50px;
+  
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+   margin-top: 50px;
+   text-align: center;
+   }
+
+   .description{
+     align-items: center;
+     justify-content: center;
+     margin-top: 25px;
+   }
+  
+   .title{
+     margin-bottom: -30px;
+     margin: auto;
+   }
+
+   .name{
+     margin-bottom: 5px;
+   }
+}
