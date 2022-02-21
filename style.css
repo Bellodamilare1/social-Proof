@@ -140,7 +140,7 @@ h2 {
 }
 
 /* media queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 600px) {
   h1 {
     margin: 20px auto 20px;
     line-height: -2px;
@@ -177,9 +177,9 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: -40px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 1rem;
   }
   .ratings2 .fa-star {
     align-items: center;
@@ -211,29 +211,28 @@ h2 {
 
   .group__card {
     display: block;
-   margin-top: 50px;
-  
+    margin-top: 50px;
   }
 
   .card1,
   .card2,
   .card3 {
-   margin-top: 50px;
-   text-align: center;
-   }
+    margin-top: 50px;
+    text-align: center;
+  }
 
-   .description{
-     align-items: center;
-     justify-content: center;
-     margin-top: 25px;
-   }
-  
-   .title{
-     margin-bottom: -30px;
-     margin: auto;
-   }
+  .description {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
 
-   .name{
-     margin-bottom: 5px;
-   }
+  .title {
+    margin-bottom: -30px;
+    margin: auto;
+  }
+
+  .name {
+    margin-bottom: 5px;
+  }
 }
