@@ -145,6 +145,12 @@ h2 {
   .container {
     margin: auto;
   }
+
+  .group__card{
+  align-items: center;
+ justify-content: center;
+ margin-left: 40px;
+  }
 }
 
 @media only screen and (min-width: 240px) and (max-width: 480px) {
@@ -158,14 +164,17 @@ h2 {
     font-size: 0.7rem;
     line-height: -2px;
     text-align: center;
-    margin: -20px auto -5px;
+    margin: -20px 5px -5px;
   }
   .right {
     position: relative;
-    left: -25px;
+      left: -5px;
+    /* width: -100px; */
     top: 30px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+     /* align-items: center;
+    justify-content: center;  */
   }
   .ratings1,
   .ratings2,
@@ -219,14 +228,17 @@ h2 {
   .group__card {
     display: block;
     margin-top: 50px;
-  }
+   align-items: center;
+   justify-content: center;
+   }
 
   .card1,
   .card2,
   .card3 {
     margin-top: 50px;
     text-align: center;
-  }
+    justify-content: center;
+    }
 
   .description {
     align-items: center;
